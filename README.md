@@ -1,93 +1,80 @@
-DCProductionPlant – Digital Twin (Unity)
-A Unity-based digital twin prototype of a DC (Direct Current) production plant, intended as a visual, interactive representation of key production assets and flows. The project serves as a foundation for further work on monitoring, visualization, and XR integration around DC production systems.
-​
+DCProductionPlant-Digital-Twin
 
-Features
-Unity project structure with Assets, Packages, ProjectSettings, and custom UIAssets for UI elements.
-​
+DCProductionPlant-Digital-Twin is a Unity-based prototype that visualizes a digital twin of a direct current (DC) production plant, serving as an interactive, extensible foundation for simulation, visualization, and future integration with real-world production data.
 
-Ready-to-extend scene setup for modeling DC production equipment, layout, and process logic.
+This project provides a structured Unity environment to model key assets, flows, user interfaces, and logic for a production line. It is ideal for developers and engineers building digital twin applications for manufacturing visualization, monitoring, and extended reality (XR) experiences.
 
-Basis for integrating real-time data (e.g., OPC UA, MQTT, REST) and analytics into a 3D plant model.
+🚀 Features
 
-Designed to be compatible with common Unity workflows for desktop and XR targets (e.g., VR headsets) once corresponding SDKs are added.
+Unity project with standard folder layout: Assets, Packages, ProjectSettings, and custom UI resources.
 
-Project Structure
-Assets/ – Main Unity content (scenes, scripts, prefabs, materials, etc.).
-​
+Placeholder scene(s) ready for extension with production plant elements.
 
-UIAssets/ – UI graphics and resources specific to the plant dashboard and in-scene interfaces.
-​
+Basis for integrating real-time data streams (e.g., OPC UA, MQTT, REST) into 3D plant models.
 
-Packages/ – Unity package manifest and dependencies managed by the Unity Package Manager.
-​
+Designed for expansion toward desktop, VR/AR, or XR digital twin interfaces.
 
-ProjectSettings/ – Unity project and editor configuration.
-​
-
-.vscode/ – Editor configuration for VS Code (recommended for C# development).[
-​
-
-.utmp/ – Unity-related temporary or tooling metadata.
-​
-
-.gitignore – VCS ignore rules tailored for Unity.
-​
-
-Getting Started
+🛠️ Getting Started
 Prerequisites
-Unity (recommended 2021 LTS or newer; use the version closest to the one configured when opening the project).
 
-.NET / C# tooling (installed automatically with Unity, or via Visual Studio / VS Code).
+Unity Editor — Recommended latest Long-Term Support (LTS) version.
 
-Git (optional, for version control and collaboration).
+.NET / C# tooling — Installed automatically with Unity or via Visual Studio / VS Code.
+
+Git — For version control and collaboration.
 
 Setup
+
 Clone the repository:
 
-bash
 git clone https://github.com/Abhilash1205/DCProductionPlant-Digital-Twin.git
-cd DCProductionPlant-Digital-Twin
-Open Unity Hub, click “Open project”, and select this folder.
 
-Let Unity import all assets and packages.
 
-Open the main scene inside Assets/ (for example, Main.unity or a plant-related scene name once created).
+Open the project in Unity Hub.
 
-Press Play in the Unity Editor to run the current simulation.
+Allow Unity to import assets and dependencies.
 
-Usage Ideas
-Visualize the DC production line layout (machines, conveyors, buffers, AGVs, etc.).
+Load the main scene (e.g., Main.unity or equivalent).
 
-Attach scripts to simulate material flow, machine states, and KPIs (throughput, OEE, energy usage).
+Press Play in the Unity Editor to run the prototype.
 
-Integrate with live shop-floor data to turn the scene into an operational digital twin dashboard.
+📌 Usage Ideas
 
-Extend with VR/AR/XR support using Unity XR plugins for immersive monitoring and control.
+Visualize production line layout (machines, conveyors, buffers).
 
-Roadmap
-Add core plant layout and equipment models.
+Simulate material flow and machine states.
 
-Implement data interface layer (e.g., OPC UA/MQTT bridge).
+Connect to live shop-floor systems for real-time insight.
 
-Develop operator UI panels using UIAssets.
+Develop immersive VR/AR/XR dashboards for plant monitoring.
 
-Introduce XR support (VR/AR) for immersive plant inspection and training.
+🔮 Roadmap
 
-Document scene hierarchy and scripting conventions.
+Planned improvements may include:
 
-Contributing
-Contributions are welcome:
+Core plant models — Add detailed equipment and layout.
 
-Fork the repository.
+Data interface layer — OPC UA/MQTT bridge for sensor and machine data.
+
+Operator UI panels — Enriched dashboards via UIAssets.
+
+XR support — VR/AR integration using Unity XR tools.
+
+Documentation — Scene hierarchy and best practices.
+
+🤝 Contributing
+
+We welcome contributions:
+
+Fork this repository.
 
 Create a feature branch:
 
-bash
-git checkout -b feature/my-improvement
+git checkout -b feature/your-feature
+
+
 Commit and push your changes.
 
-Open a pull request describing your changes and testing steps.
+Open a Pull Request describing your improvements.
 
-License
-Specify a license here (for example, MIT, Apache 2.0, or a custom license). If no explicit license is added, the repository is not automatically open for reuse—consider adding a LICENSE file.
+Please include testing steps and purpose for review.
