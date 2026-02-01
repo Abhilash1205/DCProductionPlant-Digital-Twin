@@ -1,0 +1,365 @@
+{
+
+"components": [
+
+{
+
+"id": "CAB1",
+
+"type": "cabinet",
+
+"name": "Control Cabinet 1",
+
+"description": "DC-TN Grid",
+
+"imagePath": " "
+
+},
+
+{
+
+"id": "Comp1",
+
+"type": "AC-DC-Conversion",
+
+"parentCabinet": "CAB1",
+
+"name": "AC-DC-Converter",
+
+"description": "Converts 400 VAC to 650 VDC (DC-Industry Spec)",
+
+"imagePath": " " ,
+
+"ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp2",
+
+  "type": "AC",
+
+  "parentCabinet": "CAB1",
+
+  "name": "AC - Switching and Protection Side",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp3",
+
+  "type": "component",
+
+  "parentCabinet": "CAB1",
+
+  "name": "Comp3",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " " 
+
+},
+
+{
+
+  "id": "Comp4",
+
+  "type": "component",
+
+  "parentCabinet": "CAB1",
+
+  "name": "Comp4",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " " 
+
+},
+
+{
+
+  "id": "Comp5",
+
+  "type": "AC-Distribution",
+
+  "parentCabinet": "CAB1",
+
+  "name": "AC-Distribution",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " " 
+
+},
+
+{
+
+"id": "CAB2",
+
+"type": "cabinet",
+
+"name": "Control Cabinet 2",
+
+"description": "DC-IT Grid",
+
+"imagePath": ""
+
+},
+
+{
+
+  "id": "Comp6",
+
+  "type": "component",
+
+  "parentCabinet": "CAB2",
+
+  "name": "Comp6",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp7",
+
+  "type": "AC-DC-Conversion (DC-IT-Grid)",
+
+  "parentCabinet": "CAB2",
+
+  "name": "AC-DC-Conversion (DC-IT-Grid)",
+
+  "description": "Converts 400 VAC to 650 VDC isolated",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp8",
+
+  "type": "component",
+
+  "parentCabinet": "CAB2",
+
+  "name": "Comp8",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp9",
+
+  "type": "component",
+
+  "parentCabinet": "CAB2",
+
+  "name": "Comp9",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp10",
+
+  "type": "component",
+
+  "parentCabinet": "CAB2",
+
+  "name": "Comp10",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp11",
+
+  "type": "component",
+
+  "parentCabinet": "CAB2",
+
+  "name": "Comp11",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "CAB3",
+
+  "type": "cabinet",
+
+  "name": "Control Cabinet 3",
+
+  "description": "DC-Safety (Left: TN Grid, Right, IT Grid)",
+
+  "imagePath": ""
+
+},
+
+{
+
+  "id": "Comp12",
+
+  "type": "component",
+
+  "parentCabinet": "CAB3",
+
+  "name": "Comp12",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp13",
+
+  "type": "component",
+
+  "parentCabinet": "CAB3",
+
+  "name": "Comp13",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp14",
+
+  "type": "component",
+
+  "parentCabinet": "CAB3",
+
+  "name": "Comp14",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "Comp15",
+
+  "type": "component",
+
+  "parentCabinet": "CAB3",
+
+  "name": "Comp15",
+
+  "description": "---",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+},
+
+{
+
+  "id": "CAB4",
+
+  "type": "cabinet",
+
+  "name": "Control Cabinet 4",
+
+  "description": "AC and Drive Control",
+
+  "imagePath": ""
+
+},
+
+{
+
+  "id": "CAB5",
+
+  "type": "cabinet",
+
+  "name": "Control Cabinet 5",
+
+  "description": "Control with Siemens PLC 1517 and Wieland Safety SPS",
+
+  "imagePath": ""
+
+},
+
+{
+
+  "id": "Comp16",
+
+  "type": "component",
+
+  "parentCabinet": "CAB5",
+
+ "name": "Comp16",
+
+  "description": "PLC",
+
+  "imagePath": " " ,
+
+  "ecadPath": " "
+
+}
+
+]
+
+}

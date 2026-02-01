@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "name": "Research Papers",
+      "files": [
+        {
+          "title": "Bidirectional EV Charging",
+          "resourcePath": "MonitorContent/ResearchPapers/BidirectionalEVCharging"
+        },
+        {
+          "title": "DC Robot Efficiency",
+          "resourcePath": "MonitorContent/ResearchPapers/DCRobotEfficiency"
+        },
+        {
+          "title": "DC Robot Protection",
+          "resourcePath": "MonitorContent/ResearchPapers/DCRobotProtection"
+        },
+        {
+          "title": "DC Robot Simulation",
+          "resourcePath": "MonitorContent/ResearchPapers/DCRobotSimulation"
+        },
+        {
+          "title": "Energy Simulation Taxonomy",
+          "resourcePath": "MonitorContent/ResearchPapers/EnergySimulationTaxonomy"
+        },
+        {
+          "title": "Grid Comparison",
+          "resourcePath": "MonitorContent/ResearchPapers/GridComparison"
+        },
+        {
+          "title": "Conversion of Industrial Robots",
+          "resourcePath": "MonitorContent/ResearchPapers/IndustrialRobots"
+        },
+        {
+          "title": "Lighting Systems",
+          "resourcePath": "MonitorContent/ResearchPapers/LightingSystems"
+        },
+        {
+          "title": "Measurement Technology",
+          "resourcePath": "MonitorContent/ResearchPapers/Measurementtechnology"
+        },
+        {
+          "title": "PCF",
+          "resourcePath": "MonitorContent/ResearchPapers/PCF"
+        },
+        {
+          "title": "PV Forecast",
+          "resourcePath": "MonitorContent/ResearchPapers/PVForecast"
+        },
+        {
+          "title": "Recuperative Lenze Power",
+          "resourcePath": "MonitorContent/ResearchPapers/RecuperativeLenzePower"
+        },
+        {
+          "title": "Recuperative Lenze Protection",
+          "resourcePath": "MonitorContent/ResearchPapers/RecuperativeLenzeProtection"
+        },
+        {
+          "title": "Sim Architecture",
+          "resourcePath": "MonitorContent/ResearchPapers/SimArchitecture"
+        },
+        {
+          "title": "Sim Architecture V2",
+          "resourcePath": "MonitorContent/ResearchPapers/SimArchitectureV2"
+        },
+        {
+          "title": "KI und Selbstautonomisierung",
+          "resourcePath": "MonitorContent/ResearchPapers/KIundSelbstautonomisierung"
+        },
+        {
+          "title": "Intelligente Energieoptimierung",
+          "resourcePath": "MonitorContent/ResearchPapers/IntelligenteEnergieoptimierung"
+        },
+        {
+          "title": "Simulationskopplung",
+          "resourcePath": "MonitorContent/ResearchPapers/Simulationskopplung"
+        }
+        
+        
+      ]
+    },
+    {
+      "name": "FAPS PPT",
+      "files": [
+       
+        {
+          "title": "PitchDeck_DChyPAOp",
+          "resourcePath": "MonitorContent/FAPS PPT/PitchDeckDChyPAOp"
+        },
+        {
+          "title": "EScale",
+          "resourcePath": "MonitorContent/FAPS PPT/EScale"
+        },
+        {
+          "title": "DC-Team",
+          "resourcePath": "MonitorContent/FAPS PPT/DCTeam"
+        },
+        {
+          "title": "Steckbrief_DChyPAOp",
+          "resourcePath": "MonitorContent/FAPS PPT/SteckbriefDChyPAOp"
+        },
+        {
+          "title": "StartUp_Tensoryze",
+          "resourcePath": "MonitorContent/FAPS PPT/StartUpTensoryze"
+        }
+      ]
+    },
+    
+    {
+      "name": "ODCA",
+      "files": [
+      ]
+    },
+    {
+      "name": "General Info",
+      "files": [
+        {
+          "title": "Industry Partners Logo",
+          "resourcePath": "MonitorContent/General Info/GeneralInfo"
+        }
+      ]
+    }
+  ]
+}

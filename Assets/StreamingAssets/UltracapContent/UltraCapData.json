@@ -1,0 +1,108 @@
+  {
+"components": [
+{
+"id": "CABL",
+"type": "cabinet",
+"name": "Ultracapacitor",
+"description": " ",
+"imagePath": " "
+},
+{
+"id": "Comp1",
+"type": "component",
+"parentCabinet": "CABL",
+"name": "Comp1",
+"description": "---",
+"imagePath": " " ,
+"ecadPath": " "
+},
+{
+  "id": "Comp2",
+  "type": "component",
+  "parentCabinet": "CABL",
+  "name": "Comp2",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " " 
+},
+{
+  "id": "Comp3",
+  "type": "component",
+  "parentCabinet": "CABL",
+  "name": "Comp3",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " "  
+},
+{
+  "id": "Comp4",
+  "type": "component",
+  "parentCabinet": "CABL",
+  "name": "Comp4",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " "  
+},
+{
+  "id": "Comp5",
+  "type": "component",
+  "parentCabinet": "CABL",
+  "name": "Comp5",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " "  
+},
+{
+"id": "CABR",
+"type": "cabinet",
+"name": "Ultracapacitor",
+"description": " ",
+"imagePath": ""
+},
+{
+  "id": "Comp6",
+  "type": "component",
+  "parentCabinet": "CABR",
+  "name": "Comp6",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " " 
+},
+{
+  "id": "Comp7",
+  "type": "component",
+  "parentCabinet": "CABR",
+  "name": "Comp7",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " " 
+},
+{
+  "id": "Comp8",
+  "type": "component",
+  "parentCabinet": "CABR",
+  "name": "Comp8",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " " 
+},
+{
+  "id": "Comp9",
+  "type": "component",
+  "parentCabinet": "CABR",
+  "name": "Comp9",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " " 
+},
+{
+  "id": "Comp10",
+  "type": "component",
+  "parentCabinet": "CABR",
+  "name": "Comp10",
+  "description": "---",
+  "imagePath": " " ,
+  "ecadPath": " " 
+}
+]
+} 
